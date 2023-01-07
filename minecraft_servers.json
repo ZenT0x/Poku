@@ -1,0 +1,26 @@
+{
+    "op_minecraft" :[306848454032883714,564733415530954753,399227439437316106,419495055686893568], 
+    "running" : false,
+    
+    "servers" : [ 
+
+        {"id" : 0,
+        "name" : "Server Name",
+        "description" : "Server Description",
+        "running" : false
+        },
+
+        {"id" : 1,
+        "name" : "Vanilla 1.19.2",
+        "description" : "Vanilla 1.19.2",
+        "running" : false
+        },
+
+        {"id" : 2,
+        "name" : "LITV 1.18.2",
+        "description" : "Minecraft Life in the village modpack 1.18.2",
+        "running" : false
+        }
+
+    ]
+}
