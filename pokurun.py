@@ -18,6 +18,7 @@ class jsonclass:
     def __init__(self, file_path):
         self.file_path = file_path
         self.data = None
+        self.list_keys = []
 
     def read_config(self):
         with open(self.file_path, 'r') as f:
@@ -39,6 +40,10 @@ class jsonclass:
         self.read_config()
         self.data[key].append(value)
         self.write_config(self.data)
+        
+    def append_list_keys(self,):
+        self.list_keys = list(self.data.keys())
+    
 
 config = jsonclass("config.json")
 config.read_config()
@@ -108,7 +113,8 @@ async def activity(interaction : discord.Integration, activity : str):
         
 
 @bot.tree.command(name="del", description="Delete X messages")
-async def delete(ctx,amount : int):
+@app_commands.describe(amount="Less than 25 messages")
+async def delete(ctx,amount : int = 1):
     if amount > 25:
         await ctx.response.send_message("Pas plus de 25 chef")
     else:
@@ -128,16 +134,21 @@ async def rps(i: discord.Interaction, choices: app_commands.Choice[str]):
         counter = 'scissors'
     else:
         counter = 'rock'
-    # rest of your command
-    
+    # rest of your command      
+        
 @bot.tree.command(name="json", description="See configuration file")
-@app_commands.choices(choices=[
+@app_commands.describe(file="Which file do you want to see ?")
+@app_commands.describe(key="Which key do you want to see ?")
+@app_commands.choices(file=[
     app_commands.Choice(name="config", value="config"),
     app_commands.Choice(name="minecraft serveur", value="minecraft"),
     ])
-async def json(ctx : discord.Integration, choices: app_commands.Choice["str"]):
+async def json(ctx : discord.Integration, file: app_commands.Choice["str"], key : str = None):
     if ctx.user.id in liste_op :
-        await ctx.response.send_message(globals()[choices.value].data, ephemeral=True)
+        if key != None:
+            await ctx.response.send_message(globals()[file.value].data[key], ephemeral=True)
+        else :
+            await ctx.response.send_message(globals()[file.value].data, ephemeral=True)
 
 
 
