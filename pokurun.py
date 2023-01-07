@@ -68,7 +68,7 @@ async def on_ready():
     print("-------------------")
     try:
         synced = await bot.tree.sync()
-        print(f"Synced {synced} commands")
+        print(f"Synced {len(synced)} commands")
     except Exception as e:
         print(f"Failed to sync commands: {e}")
 
@@ -86,7 +86,7 @@ async def on_command_error(ctx,error):
 # Commandes avec un slash (/)
 ##########################################################################
 
-@bot.tree.command(name="hello")
+@bot.tree.command(name="hello", description="Say hello !")
 async def hello(interaction : discord.Integration):
     await interaction.response.send_message("Hello !" , ephemeral=True)
 
@@ -98,19 +98,48 @@ async def say(interaction : discord.Integration, thing_to_say : str):
 @bot.tree.command(name="activity", description="Change the bot's activity")
 @app_commands.describe(activity="What is my next activity ?")
 async def activity(interaction : discord.Integration, activity : str):
-    if interaction.message.author.id in liste_op :
+    if interaction.user.id in liste_op :
+        await interaction.response.send_message(f"Activity changed to {activity}", ephemeral=True)
         data = {"activity": str(activity)}
         config.write_config(data,1)
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=config.data["activity"]))
-        await interaction.response.send_message(f"Activity changed to {activity}", ephemeral=True)
+    else :
+        await interaction.response.send_message("Fin fréro, tu me donnes pas d'ordre", ephemeral=True)
+        
 
 @bot.tree.command(name="del", description="Delete X messages")
-async def delete(interaction : discord.Integration, amount : int):
+async def delete(ctx,amount : int):
     if amount > 25:
-        await interaction.response.send_message("Pas plus de 25 chef", ephemeral=True)
+        await ctx.response.send_message("Pas plus de 25 chef")
     else:
-        await interaction.response.send_message("Hopé la" , ephemeral=True)
-        await interaction.channel.delete_messages(await interaction.channel.history(limit=amount))
+        await ctx.response.send_message("C'est clean :ok_hand:", ephemeral=True)
+        await ctx.channel.purge(limit=amount+1)
+
+@bot.tree.command(name="rps")
+@app_commands.choices(choices=[
+    app_commands.Choice(name="Rock", value="rock"),
+    app_commands.Choice(name="Paper", value="paper"),
+    app_commands.Choice(name="Scissors", value="scissors"),
+    ])
+async def rps(i: discord.Interaction, choices: app_commands.Choice[str]):
+    if (choices.value == 'rock'):
+        counter = 'paper'
+    elif (choices.value == 'paper'):
+        counter = 'scissors'
+    else:
+        counter = 'rock'
+    # rest of your command
+    
+@bot.tree.command(name="json", description="See configuration file")
+@app_commands.choices(choices=[
+    app_commands.Choice(name="config", value="config"),
+    app_commands.Choice(name="minecraft serveur", value="minecraft"),
+    ])
+async def json(ctx : discord.Integration, choices: app_commands.Choice["str"]):
+    if ctx.user.id in liste_op :
+        await ctx.response.send_message(globals()[choices.value].data, ephemeral=True)
+
+
 
 ##########################################################################
 # Commandes
@@ -172,12 +201,7 @@ async def change_prefix(ctx,):
 # Autres
 ###########################################
 
-"""@bot.command(name="del")
-async def delete(ctx,amount=1):
-    if amount > 25:
-        await ctx.reply("Pas plus de 25 chef")
-    else:
-        await ctx.channel.purge(limit=amount+1)"""
+
 
 ##########################################################################
 # Serveur Minecraft
