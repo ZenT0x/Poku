@@ -1,61 +1,23 @@
+import discord
+from discord.ext import commands
+from discord import app_commands
+import random as r
+import platform
+import os
+import sys
+
+from pokuclass import *
+
+"""
 from asyncore import write
 from unicodedata import name
 from datetime import datetime
 from email import message
-import random as r
-import discord
-from discord.ext import commands
-from discord import app_commands
-import platform
-import json as js
-import os
-import time
-import sys
+import time"""
 
 #-------------------- Class json
 
-class jsonclass:
-    def __init__(self, file_path):
-        self.file_path = file_path
-        self.data = None
-        self.list_keys = []
 
-    def read_config(self):
-        with open(self.file_path, 'r') as f:
-            self.data = js.load(f)
-
-    def write_config(self,data,add=0):
-        if add == 1:
-            self.read_config()
-            self.data.update(data)
-        with open(self.file_path, "w") as file:
-            js.dump(self.data,file,sort_keys=False,indent=4)
-
-    def del_value_from_key_list(self,key,value):
-        self.read_config()
-        self.data[key].remove(value)
-        self.write_config(self.data)
-
-    def add_value_from_key_list(self,key,value):
-        self.read_config()
-        self.data[key].append(value)
-        self.write_config(self.data)
-        
-    def append_list_keys(self,):
-        self.list_keys = list(self.data.keys())
-    
-
-config = jsonclass("config.json")
-config.read_config()
-
-minecraft = jsonclass("minecraft_servers.json")
-minecraft.read_config()
-
-token = config.data["token"]
-liste_op = config.data["liste_op"]
-liste_op_minecraft = minecraft.data["op_minecraft"]
-prefix = config.data["prefix"]
-ratio = config.data["ratio"]
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=prefix,intents=intents,help_command=None)
@@ -218,7 +180,8 @@ async def change_prefix(ctx,):
 # Serveur Minecraft
 ##########################################################################
 
-@bot.command(name="mcinfo")
+
+@bot.tree.command(name="mcinfo", description="See minecraft server info")
 async def mcinfo(ctx):
     embed = discord.Embed(title="Les infos sur les serveurs minecraft", description="IP : play.hypoxel.tk", color=0x3EFF00)
     embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/808996714551181342/963103630209212466/Illustration_sans_titre.png")
@@ -231,13 +194,47 @@ async def mcinfo(ctx):
         str(minecraft.data["servers"][id]["running"]),
         inline=True)
 
-    embed.add_field(name="______________________", value="Uniquement pour les fidèles", inline=False)
-    embed.add_field(name="Démarrer le serveur", value="£mcstart", inline=True)
-    embed.add_field(name="Arrêter le serveur", value="£mcstop", inline=True)
-    embed.add_field(name="Redémarre", value="£mcrestart", inline=True)
-
     embed.set_footer(text="Poku est un produit déposé par Poku®")
-    await ctx.reply(embed=embed)
+    await ctx.response.send_message(embed=embed)
+
+@bot.tree.command(name="mc", description="Manage minecraft server")
+@app_commands.choices(func=[
+    app_commands.Choice(name="start", value="1"),
+    app_commands.Choice(name="stop", value="2"),
+    app_commands.Choice(name="restart", value="3"),
+    ])
+@app_commands.choices(server=[
+    app_commands.Choice(name="Vanilla", value="1"),
+    app_commands.Choice(name="Modé", value="2"),
+    ])
+async def mc(ctx, server : app_commands.Choice["str"], func : app_commands.Choice["str"]):
+    if ctx.user.id in liste_op_minecraft :
+        if server.value == "1": # If the user selected vanilla server
+            if func.value == "1": # If the user selected start
+                temp = serveur_vanilla.start() # Start the server
+                if temp == 1: # If the server is not already started
+                    await ctx.response.send_message("Server started", ephemeral=True) # Send a message to the user
+                else: # If the server is already started
+                    await ctx.response.send_message("Server already started", ephemeral=True) # Send a message to the user
+            elif func.value == "2": # If the user selected stop
+                serveur_vanilla.stop() # Stop the server
+                await ctx.response.send_message("Server stopped", ephemeral=True) # Send a message to the user
+            return 1
+        elif server.value == "2": # If the user selected mode server
+            if func.value == "1": # If the user selected start
+                temp = serveur_mode.start() # Start the server
+                if temp == 1: # If the server is not already started
+                    await ctx.response.send_message("Server started", ephemeral=True) # Send a message to the user
+                else: # If the server is already started
+                    await ctx.response.send_message("Server already started", ephemeral=True) # Send a message to the user
+            elif func.value == "2": # If the user selected stop
+                serveur_mode.stop() # Stop the server
+                await ctx.response.send_message("Server stopped", ephemeral=True) # Send a message to the user
+            return 2
+                
+            
+    
+
 
 @bot.command(name="mcexec")
 async def mcexec(ctx,*,commande):
@@ -249,6 +246,8 @@ async def mcexec(ctx,*,commande):
         reponse="Toi fidèle ?"
         await ctx.reply(reponse)
 
+
+"""
 @bot.command(name="mcstart")
 async def mcstart(ctx,*,arg):
     print(type(arg))
@@ -280,7 +279,7 @@ async def mcstop(ctx):
     else:
         reponse="Toi fidèle ?"
         await ctx.reply(reponse)
-
+"""
 @bot.command(name="mcrestart")
 async def mcrestart(ctx):
     if ctx.message.author.id in liste_op_minecraft :
