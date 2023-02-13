@@ -219,6 +219,7 @@ async def mc(ctx, server : app_commands.Choice["str"], func : app_commands.Choic
             elif func.value == "2": # If the user selected stop
                 serveur_vanilla.stop() # Stop the server
                 await ctx.response.send_message("Server stopped", ephemeral=True) # Send a message to the user
+            await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=config.data["activity"]))
             return 1
         elif server.value == "2": # If the user selected mode server
             if func.value == "1": # If the user selected start
@@ -230,6 +231,7 @@ async def mc(ctx, server : app_commands.Choice["str"], func : app_commands.Choic
             elif func.value == "2": # If the user selected stop
                 serveur_mode.stop() # Stop the server
                 await ctx.response.send_message("Server stopped", ephemeral=True) # Send a message to the user
+            await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=config.data["activity"]))
             return 2
                 
             
