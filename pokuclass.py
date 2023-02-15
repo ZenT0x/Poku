@@ -63,6 +63,9 @@ class serverclass: # classe pour les serveurs minecraft
         config.write_config(data,1)
         data = {"running": 0}
         minecraft.write_config(data,1)
+    
+    def restart(self):
+        os.system('bash mcrestart.sh')
             
 
 token = config.data["token"]
