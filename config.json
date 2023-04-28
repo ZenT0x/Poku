@@ -1,14 +1,12 @@
 {
-    "activity": "Serveur ferm\u00e9",
-    "liste_op": [
-        306848454032883714,
-        564733415530954753
-    ],
-    "message": "oui oui",
-    "prefix": "\u00a3",
-    "ratio": [
-        "<@962791207661080666>",
-        "<@306848454032883714>"
-    ],
-    "token": "OTYyNzkxMjA3NjYxMDgwNjY2.YlMrLw.DutUag8FTkxaVuDxHGyOtE4sks0"
+  "prefix": ".",
+  "token": "OTYyNzkxMjA3NjYxMDgwNjY2.YlMrLw.DutUag8FTkxaVuDxHGyOtE4sks0",
+  "permissions": "YOUR_BOT_PERMISSIONS_HERE",
+  "application_id": "YOUR_APPLICATION_ID_HERE",
+  "sync_commands_globally": true,
+  "wake_up_time_finished": false,
+  "statues" : ["2.0"],
+  "owners": [
+    306848454032883700
+  ]
 }
