@@ -41,6 +41,10 @@ class MinecraftDB:
         self.c.execute('''UPDATE servers SET running=? WHERE id=?''', (running, id))
         self.conn.commit()
         
+    def set_all_servers_running(self, running):
+        self.c.execute('''UPDATE servers SET running=?''', (running,))
+        self.conn.commit()
+        
     def get_server_launch_script(self, id):
         self.c.execute('''SELECT launchscript FROM servers WHERE id=?''', (id,))
         return self.c.fetchone()[0]

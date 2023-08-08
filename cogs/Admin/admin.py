@@ -5,7 +5,6 @@ from discord.ext import commands
 from discord import app_commands
 import datetime, time
 
-
 class Admin(commands.Cog):
     
     def __init__(self, bot):
@@ -48,13 +47,25 @@ class Admin(commands.Cog):
         else:
             await interaction.response.send_message("Ratio ?")
             
-    @app_commands.command(name="compter", description="Compte très vite")
-    async def compter(self, interaction : discord.Integration):
-        if self.admin_check(interaction):
-            await interaction.response.send_message("1")
-            message = await interaction.original_response()
-            for i in range(2, 100):
-                await message.edit(content=str(i))
+    @app_commands.command(name="reload_cogs",description="Reload all cogs")
+    async def reload_cogs(self, interaction):
+        if interaction.user.id == 306848454032883714:
+            embed = discord.Embed(title="Reload cogs",description="Reload all cogs",color=0x00ff00)
+            cogs : list = ["cogs.Admin.admin","cogs.Minecraft.function"]
+            self.bot.logger.info(f"Reloading all cogs...")
+            for cog in cogs:
+                try:
+                    await self.bot.reload_extension(cog)
+                    self.bot.logger.info(f"Reloaded cog {cog}")
+                    embed.add_field(name=f"Reloaded cog {cog}",value="✅",inline=False)
+                except Exception as e:
+                    exc = "{}: {}".format(type(e).__name__, e)
+                    self.bot.logger.info("Failed to reload cog {}\n{}".format(cog, exc))
+                    embed.add_field(name=f"Failed to reload cog {cog}",value="❌",inline=False)
+            self.bot.logger.info(f"All cogs reloaded.")
+            self.bot.logger.info("-------------------")
+            embed.add_field(name=f"Finished",value="✅",inline=False)
+            await interaction.response.send_message(embed=embed,ephemeral=True)       
     
     @app_commands.command(name="discord", description="Donne des infos sur le serveur discord")
     async def discord(self, interaction : discord.Integration):

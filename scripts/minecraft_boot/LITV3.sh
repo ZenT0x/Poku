@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/LITV3-Serverpack-1.5b/
-bash run.sh
+cd /home/zentox/suhome/LITV3
+screen -dmS serveur bash run.sh

@@ -7974,3 +7974,542 @@ ExtensionFailed: Extension 'cogs.Minecraft.function' raised an error: SyntaxErro
 [2023-06-07 17:43:46] [INFO    ] Poku : : Synced commands globally.
 [2023-06-07 17:43:46] [INFO    ] Poku : : -------------------
 [2023-06-07 17:43:46] [INFO    ] Poku : : Bot ready.
+[2023-06-13 13:11:44] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:44] [INFO    ] Poku : : === STARTING BOT ===
+[2023-06-13 13:11:44] [INFO    ] Poku : : json loaded
+[2023-06-13 13:11:44] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:44] [INFO    ] Poku : : Loading cogs...
+[2023-06-13 13:11:44] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-06-13 13:11:44] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-06-13 13:11:44] [INFO    ] Poku : : All cogs loaded.
+[2023-06-13 13:11:44] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:47] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:47] [INFO    ] Poku : : Logged in as Poku
+[2023-06-13 13:11:47] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-06-13 13:11:47] [INFO    ] Poku : : Python version: 3.11.3
+[2023-06-13 13:11:47] [INFO    ] Poku : : Running on: Linux 6.3.7-arch1-1 (posix)
+[2023-06-13 13:11:47] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:47] [INFO    ] Poku : : Syncing commands globally...
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced command uptime
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced command dormir
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced command reload
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced command discord
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced command minecraft
+[2023-06-13 13:11:47] [INFO    ] Poku : : Synced commands globally.
+[2023-06-13 13:11:47] [INFO    ] Poku : : -------------------
+[2023-06-13 13:11:47] [INFO    ] Poku : : Bot ready.
+[2023-06-24 17:48:20] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:20] [INFO    ] Poku : : === STARTING BOT ===
+[2023-06-24 17:48:20] [INFO    ] Poku : : json loaded
+[2023-06-24 17:48:20] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:20] [INFO    ] Poku : : Loading cogs...
+[2023-06-24 17:48:20] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-06-24 17:48:20] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-06-24 17:48:20] [INFO    ] Poku : : All cogs loaded.
+[2023-06-24 17:48:20] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:23] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:23] [INFO    ] Poku : : Logged in as Poku
+[2023-06-24 17:48:23] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-06-24 17:48:23] [INFO    ] Poku : : Python version: 3.11.3
+[2023-06-24 17:48:23] [INFO    ] Poku : : Running on: Linux 6.3.9-arch1-1 (posix)
+[2023-06-24 17:48:23] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:23] [INFO    ] Poku : : Syncing commands globally...
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced command uptime
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced command dormir
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced command reload
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced command discord
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced command minecraft
+[2023-06-24 17:48:23] [INFO    ] Poku : : Synced commands globally.
+[2023-06-24 17:48:23] [INFO    ] Poku : : -------------------
+[2023-06-24 17:48:23] [INFO    ] Poku : : Bot ready.
+[2023-06-30 18:25:39] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:39] [INFO    ] Poku : : === STARTING BOT ===
+[2023-06-30 18:25:39] [INFO    ] Poku : : json loaded
+[2023-06-30 18:25:39] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:39] [INFO    ] Poku : : Loading cogs...
+[2023-06-30 18:25:39] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-06-30 18:25:40] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-06-30 18:25:40] [INFO    ] Poku : : All cogs loaded.
+[2023-06-30 18:25:40] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:43] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:43] [INFO    ] Poku : : Logged in as Poku
+[2023-06-30 18:25:43] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-06-30 18:25:43] [INFO    ] Poku : : Python version: 3.11.3
+[2023-06-30 18:25:43] [INFO    ] Poku : : Running on: Linux 6.3.9-arch1-1 (posix)
+[2023-06-30 18:25:43] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:43] [INFO    ] Poku : : Syncing commands globally...
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced command uptime
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced command dormir
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced command reload
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced command discord
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced command minecraft
+[2023-06-30 18:25:43] [INFO    ] Poku : : Synced commands globally.
+[2023-06-30 18:25:43] [INFO    ] Poku : : -------------------
+[2023-06-30 18:25:43] [INFO    ] Poku : : Bot ready.
+[2023-07-09 15:23:11] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:11] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-09 15:23:11] [INFO    ] Poku : : json loaded
+[2023-07-09 15:23:11] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:11] [INFO    ] Poku : : Loading cogs...
+[2023-07-09 15:23:11] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-09 15:23:11] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-09 15:23:11] [INFO    ] Poku : : All cogs loaded.
+[2023-07-09 15:23:11] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:14] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:14] [INFO    ] Poku : : Logged in as Poku
+[2023-07-09 15:23:14] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-07-09 15:23:14] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-09 15:23:14] [INFO    ] Poku : : Running on: Linux 6.3.9-arch1-1 (posix)
+[2023-07-09 15:23:14] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:14] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced command uptime
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced command dormir
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced command reload
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced command discord
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced command minecraft
+[2023-07-09 15:23:14] [INFO    ] Poku : : Synced commands globally.
+[2023-07-09 15:23:14] [INFO    ] Poku : : -------------------
+[2023-07-09 15:23:14] [INFO    ] Poku : : Bot ready.
+[2023-07-10 16:10:04] [INFO    ] Poku : : -------------------
+[2023-07-10 16:10:04] [INFO    ] Poku : : Logged in as Poku
+[2023-07-10 16:10:04] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-07-10 16:10:04] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-10 16:10:04] [INFO    ] Poku : : Running on: Linux 6.3.9-arch1-1 (posix)
+[2023-07-10 16:10:04] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:12] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:12] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-17 11:12:12] [INFO    ] Poku : : json loaded
+[2023-07-17 11:12:12] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:12] [INFO    ] Poku : : Loading cogs...
+[2023-07-17 11:12:12] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-17 11:12:12] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-17 11:12:12] [INFO    ] Poku : : All cogs loaded.
+[2023-07-17 11:12:12] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:15] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:15] [INFO    ] Poku : : Logged in as Poku
+[2023-07-17 11:12:15] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-07-17 11:12:15] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-17 11:12:15] [INFO    ] Poku : : Running on: Linux 6.3.9-arch1-1 (posix)
+[2023-07-17 11:12:15] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:15] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced command uptime
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced command dormir
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced command reload
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced command discord
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced command minecraft
+[2023-07-17 11:12:15] [INFO    ] Poku : : Synced commands globally.
+[2023-07-17 11:12:15] [INFO    ] Poku : : -------------------
+[2023-07-17 11:12:15] [INFO    ] Poku : : Bot ready.
+[2023-07-22 16:08:49] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:49] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-22 16:08:49] [INFO    ] Poku : : json loaded
+[2023-07-22 16:08:49] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:49] [INFO    ] Poku : : Loading cogs...
+[2023-07-22 16:08:49] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-22 16:08:49] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-22 16:08:49] [INFO    ] Poku : : All cogs loaded.
+[2023-07-22 16:08:49] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:52] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:52] [INFO    ] Poku : : Logged in as Poku
+[2023-07-22 16:08:52] [INFO    ] Poku : : discord.py API version: 2.2.3
+[2023-07-22 16:08:52] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-22 16:08:52] [INFO    ] Poku : : Running on: Linux 6.4.3-arch1-2 (posix)
+[2023-07-22 16:08:52] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:52] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced command uptime
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced command dormir
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced command reload
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced command discord
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced command minecraft
+[2023-07-22 16:08:53] [INFO    ] Poku : : Synced commands globally.
+[2023-07-22 16:08:53] [INFO    ] Poku : : -------------------
+[2023-07-22 16:08:53] [INFO    ] Poku : : Bot ready.
+[2023-07-24 19:19:10] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:10] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-24 19:19:10] [INFO    ] Poku : : json loaded
+[2023-07-24 19:19:10] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:10] [INFO    ] Poku : : Loading cogs...
+[2023-07-24 19:19:10] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-24 19:19:10] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-24 19:19:10] [INFO    ] Poku : : All cogs loaded.
+[2023-07-24 19:19:10] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:13] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:13] [INFO    ] Poku : : Logged in as Poku
+[2023-07-24 19:19:13] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-07-24 19:19:13] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-24 19:19:13] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-07-24 19:19:13] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:13] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced command uptime
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced command dormir
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced command reload
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced command discord
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced command minecraft
+[2023-07-24 19:19:13] [INFO    ] Poku : : Synced commands globally.
+[2023-07-24 19:19:13] [INFO    ] Poku : : -------------------
+[2023-07-24 19:19:13] [INFO    ] Poku : : Bot ready.
+[2023-07-25 10:29:35] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:35] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-25 10:29:35] [INFO    ] Poku : : json loaded
+[2023-07-25 10:29:35] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:35] [INFO    ] Poku : : Loading cogs...
+[2023-07-25 10:29:35] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-25 10:29:35] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-25 10:29:35] [INFO    ] Poku : : All cogs loaded.
+[2023-07-25 10:29:35] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:38] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:38] [INFO    ] Poku : : Logged in as Poku
+[2023-07-25 10:29:38] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-07-25 10:29:38] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-25 10:29:38] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-07-25 10:29:38] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:38] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced command uptime
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced command dormir
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced command reload
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced command discord
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced command minecraft
+[2023-07-25 10:29:38] [INFO    ] Poku : : Synced commands globally.
+[2023-07-25 10:29:38] [INFO    ] Poku : : -------------------
+[2023-07-25 10:29:38] [INFO    ] Poku : : Bot ready.
+[2023-07-31 10:14:35] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:35] [INFO    ] Poku : : === STARTING BOT ===
+[2023-07-31 10:14:35] [INFO    ] Poku : : json loaded
+[2023-07-31 10:14:35] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:35] [INFO    ] Poku : : Loading cogs...
+[2023-07-31 10:14:35] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-07-31 10:14:35] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-07-31 10:14:35] [INFO    ] Poku : : All cogs loaded.
+[2023-07-31 10:14:35] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:38] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:38] [INFO    ] Poku : : Logged in as Poku
+[2023-07-31 10:14:38] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-07-31 10:14:38] [INFO    ] Poku : : Python version: 3.11.3
+[2023-07-31 10:14:38] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-07-31 10:14:38] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:38] [INFO    ] Poku : : Syncing commands globally...
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced command uptime
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced command dormir
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced command reload
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced command discord
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced command minecraft
+[2023-07-31 10:14:38] [INFO    ] Poku : : Synced commands globally.
+[2023-07-31 10:14:38] [INFO    ] Poku : : -------------------
+[2023-07-31 10:14:38] [INFO    ] Poku : : Bot ready.
+[2023-08-04 10:45:06] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-04 10:45:06] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-04 10:45:06] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:17] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:17] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-04 10:45:17] [INFO    ] Poku : : json loaded
+[2023-08-04 10:45:17] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:17] [INFO    ] Poku : : Loading cogs...
+[2023-08-04 10:45:17] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-04 10:45:17] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-04 10:45:17] [INFO    ] Poku : : All cogs loaded.
+[2023-08-04 10:45:17] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:21] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:21] [INFO    ] Poku : : Logged in as Poku
+[2023-08-04 10:45:21] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-04 10:45:21] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-04 10:45:21] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-04 10:45:21] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:21] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced command uptime
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced command dormir
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced command reload
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced command discord
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced command minecraft
+[2023-08-04 10:45:21] [INFO    ] Poku : : Synced commands globally.
+[2023-08-04 10:45:21] [INFO    ] Poku : : -------------------
+[2023-08-04 10:45:21] [INFO    ] Poku : : Bot ready.
+[2023-08-04 11:10:16] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-04 11:10:16] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-04 11:10:16] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:26] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:26] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-04 11:10:26] [INFO    ] Poku : : json loaded
+[2023-08-04 11:10:26] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:26] [INFO    ] Poku : : Loading cogs...
+[2023-08-04 11:10:26] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-04 11:10:26] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-04 11:10:26] [INFO    ] Poku : : All cogs loaded.
+[2023-08-04 11:10:26] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:29] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:29] [INFO    ] Poku : : Logged in as Poku
+[2023-08-04 11:10:29] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-04 11:10:29] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-04 11:10:29] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-04 11:10:29] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:29] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced command uptime
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced command dormir
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced command reload
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced command discord
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced command minecraft
+[2023-08-04 11:10:30] [INFO    ] Poku : : Synced commands globally.
+[2023-08-04 11:10:30] [INFO    ] Poku : : -------------------
+[2023-08-04 11:10:30] [INFO    ] Poku : : Bot ready.
+[2023-08-04 11:20:04] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 11:20:07] [INFO    ] Poku : : The server LITV3 has been refreshed by zent0x
+[2023-08-04 11:40:48] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 11:40:52] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-04 12:56:58] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-04 12:57:01] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-04 13:32:43] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-04 13:32:43] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-04 13:32:43] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:54] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:54] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-04 13:32:54] [INFO    ] Poku : : json loaded
+[2023-08-04 13:32:54] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:54] [INFO    ] Poku : : Loading cogs...
+[2023-08-04 13:32:54] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-04 13:32:54] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-04 13:32:54] [INFO    ] Poku : : All cogs loaded.
+[2023-08-04 13:32:54] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:57] [INFO    ] Poku : : Logged in as Poku
+[2023-08-04 13:32:57] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-04 13:32:57] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-04 13:32:57] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-04 13:32:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:57] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced command uptime
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced command dormir
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced command reload
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced command discord
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced command minecraft
+[2023-08-04 13:32:57] [INFO    ] Poku : : Synced commands globally.
+[2023-08-04 13:32:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:32:57] [INFO    ] Poku : : Bot ready.
+[2023-08-04 13:33:04] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 13:33:09] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-04 13:33:20] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 13:33:23] [INFO    ] Poku : : The server Vanilla_1.19.2 is being launched by zent0x
+[2023-08-04 13:33:47] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-04 13:33:47] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-04 13:33:47] [INFO    ] Poku : : -------------------
+[2023-08-04 13:33:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:33:57] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-04 13:33:57] [INFO    ] Poku : : json loaded
+[2023-08-04 13:33:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:33:57] [INFO    ] Poku : : Loading cogs...
+[2023-08-04 13:33:57] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-04 13:33:57] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-04 13:33:57] [INFO    ] Poku : : All cogs loaded.
+[2023-08-04 13:33:57] [INFO    ] Poku : : -------------------
+[2023-08-04 13:34:00] [INFO    ] Poku : : -------------------
+[2023-08-04 13:34:00] [INFO    ] Poku : : Logged in as Poku
+[2023-08-04 13:34:00] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-04 13:34:00] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-04 13:34:00] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-04 13:34:00] [INFO    ] Poku : : -------------------
+[2023-08-04 13:34:00] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced command uptime
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced command dormir
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced command reload
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced command discord
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced command minecraft
+[2023-08-04 13:34:01] [INFO    ] Poku : : Synced commands globally.
+[2023-08-04 13:34:01] [INFO    ] Poku : : -------------------
+[2023-08-04 13:34:01] [INFO    ] Poku : : Bot ready.
+[2023-08-04 13:34:19] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 13:34:23] [INFO    ] Poku : : The server Vanilla_1.19.2 has been refreshed by zent0x
+[2023-08-04 13:34:25] [INFO    ] Poku : : The server Vanilla_1.19.2 has been stopped
+[2023-08-04 13:34:31] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 13:34:35] [INFO    ] Poku : : The server Vanilla_1.19.2 is being launched by zent0x
+[2023-08-04 13:37:54] [INFO    ] Poku : : The server Vanilla_1.19.2 has been stopped
+[2023-08-04 15:08:28] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-04 15:08:30] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-04 18:24:21] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 18:24:28] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-04 18:24:41] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 21:12:14] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-04 23:28:21] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-04 23:28:23] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-05 09:41:12] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-05 09:41:16] [INFO    ] Poku : : The server LITV3 has been refreshed by zent0x
+[2023-08-05 09:41:21] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-05 09:41:30] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-05 10:28:13] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-05 10:28:15] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-05 11:00:08] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-05 14:58:31] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-05 14:58:37] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-05 14:58:42] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-05 14:58:44] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-05 19:14:31] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-05 19:15:22] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-06 14:04:00] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-06 14:04:02] [INFO    ] Poku : : The server LITV3 is being launched by topinambourg
+[2023-08-06 23:08:42] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-07 13:15:47] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-07 13:15:50] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-07 13:15:54] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-07 13:15:57] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-07 14:34:55] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-07 14:34:58] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-07 14:35:01] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-07 14:35:04] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 10:12:30] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 10:12:33] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-08 11:45:52] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 11:45:55] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 12:28:36] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-08 19:25:42] [INFO    ] Poku : : Minecraft command called by topinambourg
+[2023-08-08 20:41:56] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:41:59] [INFO    ] Poku : : The server LITV3 has been refreshed by zent0x
+[2023-08-08 20:47:50] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-08 20:47:50] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-08 20:47:50] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:01] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:01] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-08 20:48:01] [INFO    ] Poku : : json loaded
+[2023-08-08 20:48:01] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:01] [INFO    ] Poku : : Loading cogs...
+[2023-08-08 20:48:01] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-08 20:48:01] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-08 20:48:01] [INFO    ] Poku : : All cogs loaded.
+[2023-08-08 20:48:01] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:04] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:04] [INFO    ] Poku : : Logged in as Poku
+[2023-08-08 20:48:04] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-08 20:48:04] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-08 20:48:04] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-08 20:48:04] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:04] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced command uptime
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced command dormir
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced command reload
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced command discord
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced command minecraft
+[2023-08-08 20:48:05] [INFO    ] Poku : : Synced commands globally.
+[2023-08-08 20:48:05] [INFO    ] Poku : : -------------------
+[2023-08-08 20:48:05] [INFO    ] Poku : : Bot ready.
+[2023-08-08 20:49:06] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-08 20:49:06] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-08 20:49:06] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:17] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:17] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-08 20:49:17] [INFO    ] Poku : : json loaded
+[2023-08-08 20:49:17] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:17] [INFO    ] Poku : : Loading cogs...
+[2023-08-08 20:49:17] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-08 20:49:17] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-08 20:49:17] [INFO    ] Poku : : All cogs loaded.
+[2023-08-08 20:49:17] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:20] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:20] [INFO    ] Poku : : Logged in as Poku
+[2023-08-08 20:49:20] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-08 20:49:20] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-08 20:49:20] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-08 20:49:20] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:20] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command uptime
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command dormir
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command reload
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command reload_cogs
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command discord
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced command minecraft
+[2023-08-08 20:49:20] [INFO    ] Poku : : Synced commands globally.
+[2023-08-08 20:49:20] [INFO    ] Poku : : -------------------
+[2023-08-08 20:49:20] [INFO    ] Poku : : Bot ready.
+[2023-08-08 20:51:05] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 20:51:05] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 20:51:05] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 20:51:05] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 20:51:05] [INFO    ] Poku : : -------------------
+[2023-08-08 20:51:20] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:51:26] [INFO    ] Poku : : The server LITV3 has been stopped
+[2023-08-08 20:52:03] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:52:06] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 20:55:15] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:57:00] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 20:57:00] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 20:57:00] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 20:57:00] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 20:57:00] [INFO    ] Poku : : -------------------
+[2023-08-08 20:57:03] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:57:06] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 20:59:11] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 20:59:11] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 20:59:11] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 20:59:11] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 20:59:11] [INFO    ] Poku : : -------------------
+[2023-08-08 20:59:17] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 20:59:35] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 21:04:19] [ERROR   ] Poku : : The server LITV3 could not be launched by zent0x
+[2023-08-08 21:05:47] [ERROR   ] Poku : : The server LITV3 could not be launched by zent0x
+[2023-08-08 21:09:18] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:09:18] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:09:18] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:09:18] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:09:18] [INFO    ] Poku : : -------------------
+[2023-08-08 21:09:21] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 21:09:23] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 21:13:06] [ERROR   ] Poku : : The server LITV3 could not be launched by zent0x
+[2023-08-08 21:15:23] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:15:23] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:15:23] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:15:23] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:15:23] [INFO    ] Poku : : -------------------
+[2023-08-08 21:15:26] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 21:15:28] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 21:16:16] [INFO    ] Poku : : 306848454032883714 : zent0x : Le bot se recharge
+[2023-08-08 21:16:16] [INFO    ] Poku : : === ENDING BOT ===
+[2023-08-08 21:16:16] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:26] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:26] [INFO    ] Poku : : === STARTING BOT ===
+[2023-08-08 21:16:26] [INFO    ] Poku : : json loaded
+[2023-08-08 21:16:26] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:26] [INFO    ] Poku : : Loading cogs...
+[2023-08-08 21:16:26] [INFO    ] Poku : : Loaded cog cogs.Admin.admin
+[2023-08-08 21:16:26] [INFO    ] Poku : : Loaded cog cogs.Minecraft.function
+[2023-08-08 21:16:26] [INFO    ] Poku : : All cogs loaded.
+[2023-08-08 21:16:26] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:29] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:29] [INFO    ] Poku : : Logged in as Poku
+[2023-08-08 21:16:29] [INFO    ] Poku : : discord.py API version: 2.3.1
+[2023-08-08 21:16:29] [INFO    ] Poku : : Python version: 3.11.3
+[2023-08-08 21:16:29] [INFO    ] Poku : : Running on: Linux 6.4.4-arch1-1 (posix)
+[2023-08-08 21:16:29] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:29] [INFO    ] Poku : : Syncing commands globally...
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command uptime
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command dormir
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command reload
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command reload_cogs
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command discord
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced command minecraft
+[2023-08-08 21:16:30] [INFO    ] Poku : : Synced commands globally.
+[2023-08-08 21:16:30] [INFO    ] Poku : : -------------------
+[2023-08-08 21:16:30] [INFO    ] Poku : : Bot ready.
+[2023-08-08 21:18:01] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:18:01] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:18:01] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:18:01] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:18:01] [INFO    ] Poku : : -------------------
+[2023-08-08 21:18:03] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 21:18:06] [INFO    ] Poku : : The server LITV3 is being launched by zent0x
+[2023-08-08 21:18:22] [ERROR   ] Poku : : The server LITV3 could not be launched by zent0x
+[2023-08-08 21:48:09] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:48:09] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:48:09] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:48:09] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:48:09] [INFO    ] Poku : : -------------------
+[2023-08-08 21:48:13] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 21:48:15] [INFO    ] Poku : : The server Vanilla_1.19.2 is being launched by zent0x
+[2023-08-08 21:49:37] [INFO    ] Poku : : The server Vanilla_1.19.2 has been refreshed by zent0x
+[2023-08-08 21:57:21] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:57:21] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:57:21] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:57:21] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:57:21] [INFO    ] Poku : : -------------------
+[2023-08-08 21:57:26] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 21:57:50] [INFO    ] Poku : : Reloading all cogs...
+[2023-08-08 21:57:50] [INFO    ] Poku : : Reloaded cog cogs.Admin.admin
+[2023-08-08 21:57:50] [INFO    ] Poku : : Reloaded cog cogs.Minecraft.function
+[2023-08-08 21:57:50] [INFO    ] Poku : : All cogs reloaded.
+[2023-08-08 21:57:50] [INFO    ] Poku : : -------------------
+[2023-08-08 21:57:56] [INFO    ] Poku : : Minecraft command called by zent0x
+[2023-08-08 22:00:20] [INFO    ] Poku : : Minecraft command called by zent0x

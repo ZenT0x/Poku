@@ -16,12 +16,14 @@ class Minecraft(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
+        self.minecraftServerIpAdress = "play.hypoxel.tk"
         self.minecraftBootFiles = os.listdir('scripts/minecraft_boot')
         self.minecraftLaunchScripts = self.minecraftBootFiles
         self.minecraftBootFiles = [file.replace(".sh", "") for file in self.minecraftBootFiles]    
     
     @app_commands.command(name="minecraft",description="Choisis un serveur minecraft à gérer") 
     async def minecraftserver(self, interaction : discord.Integration):
+        self.bot.logger.info("Minecraft command called by "+interaction.user.name)
         servers = db.get_all_servers()
         for server in servers:
             if server[3] == 1:
@@ -29,6 +31,11 @@ class Minecraft(commands.Cog):
                 break
             else :
                 serverRunning = None
+                
+        if get_minecraft_status(self.minecraftServerIpAdress)[0] == -1:
+            serverRunning = None
+            db.set_all_servers_running(0)
+        
         
         if serverRunning == None:
             embed = discord.Embed(title="Serveur Minecraft", description="Aucun serveur n'est actuellement lancé", color=0x3EFF00)
@@ -45,6 +52,8 @@ class Minecraft(commands.Cog):
 
                  
                 async def launchServerCallback(interaction : discord.Interaction, server):
+                    timeOut = 150
+                    attempts = 0
 
                     os.system('bash scripts/minecraft_boot/'+server[4])
                     db.set_server_running(server[0], 1)
@@ -53,36 +62,31 @@ class Minecraft(commands.Cog):
                     for button in LaunchButtonDict.values():
                         button.disabled = True
                     new_embed = discord.Embed(title="Serveur Minecraft", description="Le serveur "+server[1]+" est en cours de lancement", color=0x3EFF00)
+                    self.bot.logger.info("The server "+server[1]+" is being launched by "+interaction.user.name)
                     progress_bar = ["⬜"] * 16
                     new_embed.add_field(name="Statut", value="".join(progress_bar), inline=True)
+                    message = await interaction.original_response()
                     await message.edit(embed=new_embed, view=view)
-                    for i in range(len(progress_bar)-3):
-                        progress_bar[i] = "🟩"
-                        new_embed.set_field_at(0, name="Statut", value="".join(progress_bar), inline=True)
-                        await message.edit(embed=new_embed)
-                        sleep(randint(1,3))
                         
-                    attempts = 0
-                    while get_minecraft_status("play.hypoxel.tk")[0] == -1 and attempts < 20:
-                        if(attempts % 2 == 0):
-                            progress_bar[-1] = "🟨"
-                            progress_bar[-2] = "⬜"
-                            progress_bar[-3] = "🟨"
-                        if(attempts % 2 == 1):
-                            progress_bar[-1] = "⬜"
-                            progress_bar[-2] = "🟨"
-                            progress_bar[-3] = "⬜"
+                    progress_bar[0] = "🟩"
+                    progress_bar[1] = "🟩"
+                    while get_minecraft_status(self.minecraftServerIpAdress)[0] == -1 and attempts < timeOut:
+                        index = attempts % 16
+                        progress_bar[index-1] = "⬜"
+                        progress_bar[(index+2)%16] = "🟩"
                         new_embed.set_field_at(0, name="Statut", value="".join(progress_bar), inline=True)
                         await message.edit(embed=new_embed)
                         attempts += 1
-                        sleep(2)
+                        sleep(1)
                         
-                    if attempts == 20:
-                        progress_bar[-1] = "🟥"
-                        progress_bar[-2] = "🟥"
-                        progress_bar[-3] = "🟥"
+                    if attempts == timeOut:
+                        for i in range(len(progress_bar)):
+                            progress_bar[i] = "🟥"
                         new_embed.set_field_at(0, name="Statut", value="".join(progress_bar), inline=True)
                         new_embed.title = "Le serveur "+server[1]+" n'a pas pu être lancé"
+                        new_embed.description = "Ptit problème technique"
+                        new_embed.color = 0xFF0000
+                        self.bot.logger.error("The server "+server[1]+" could not be launched by "+interaction.user.name)
                         await message.edit(embed=new_embed)
                         db.set_server_running(server[0], 0)
                         return
@@ -92,6 +96,8 @@ class Minecraft(commands.Cog):
                 LaunchButtonDict[server[1]].callback = lambda x, s=server: launchServerCallback(x, s)            
             
             await interaction.response.send_message(embed=embed, view=view)
+        else:
+            await self.manageServer(interaction, serverRunning)
             message = await interaction.original_response()
         if serverRunning != None:
             await self.manageServer(interaction, serverRunning)
@@ -102,7 +108,7 @@ class Minecraft(commands.Cog):
             await interaction.response.send_message(embed=embed)
             message = await interaction.original_response()
         
-        serverinformation = get_minecraft_status("play.hypoxel.tk")
+        serverinformation = get_minecraft_status(self.minecraftServerIpAdress)
         try: 
             number_of_players = serverinformation[0]
             list_of_players = serverinformation[1]
@@ -131,6 +137,7 @@ class Minecraft(commands.Cog):
             db.set_server_running(server[0], 0)
             embed_stop = discord.Embed(title="Serveur Minecraft", description="Le serveur "+server[1]+" a été arrêté", color=0xFF0000)
             embed_stop.set_footer(text="Actualisé à "+datetime.now().strftime("%H:%M le %d/%m/%Y "))
+            self.bot.logger.info("The server "+server[1]+" has been stopped")
             for button in view.children:
                 button.disabled = True
             await message.edit(embed=embed_stop, view=view)
@@ -138,7 +145,8 @@ class Minecraft(commands.Cog):
             
             
         async def refreshServerCallback(interaction : discord.Interaction, server):
-            serverinformation = get_minecraft_status("play.hypoxel.tk")
+            serverinformation = get_minecraft_status(self.minecraftServerIpAdress)
+            self.bot.logger.info("The server "+server[1]+" has been refreshed by "+interaction.user.name)
             try: 
                 number_of_players = serverinformation[0]
                 list_of_players = serverinformation[1]
