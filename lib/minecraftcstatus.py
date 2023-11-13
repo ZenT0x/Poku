@@ -6,7 +6,6 @@ def get_minecraft_status(server_address):
         server = JavaServer.lookup(f'{server_address}:{server_port}')
         num_players = server.status().players.online
         ping = server.ping()
-        #List of the 5 first players
         #players = server.query().players.names[:5]
         players = ""
         return num_players, players, int(ping)

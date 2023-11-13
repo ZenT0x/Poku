@@ -16,7 +16,7 @@ class Minecraft(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.minecraftServerIpAdress = "play.hypoxel.tk"
+        self.minecraftServerIpAdress = "ip"
         self.minecraftBootFiles = os.listdir('scripts/minecraft_boot')
         self.minecraftLaunchScripts = self.minecraftBootFiles
         self.minecraftBootFiles = [file.replace(".sh", "") for file in self.minecraftBootFiles]    

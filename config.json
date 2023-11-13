@@ -1,12 +1,12 @@
 {
   "prefix": ".",
-  "token": "OTYyNzkxMjA3NjYxMDgwNjY2.YlMrLw.DutUag8FTkxaVuDxHGyOtE4sks0",
+  "token": "TOKEN",
   "permissions": "YOUR_BOT_PERMISSIONS_HERE",
   "application_id": "YOUR_APPLICATION_ID_HERE",
   "sync_commands_globally": true,
   "wake_up_time_finished": false,
-  "statues" : ["Puko ?","2.0 Out !","/minecraft"],
+  "statues" : ["Hey there!", "I'm a bot!"],
   "owners": [
-    306848454032883700
+    123
   ]
 }

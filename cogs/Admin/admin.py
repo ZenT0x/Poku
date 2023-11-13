@@ -17,7 +17,7 @@ class Admin(commands.Cog):
         
     def admin_check(self, interaction):
         print(f"{interaction.user.id}")
-        return interaction.user.id == 306848454032883714
+        return interaction.user.id == id
     
     @app_commands.command(name="uptime", description="Mon uptime")
     async def uptime(self, interaction : discord.Integration):
@@ -33,7 +33,7 @@ class Admin(commands.Cog):
             self.bot.logger.info("-------------------")
             await self.bot.close()
         else:
-            await interaction.response.send_message("Ratio ?")
+            await interaction.response.send_message("Pas admin")
 
     @app_commands.command(name="reload", description="Reload le bot")
     async def reload(self, interaction : discord.Integration):
@@ -45,11 +45,11 @@ class Admin(commands.Cog):
             os.system('bash scripts/reboot.sh')
             await self.bot.close()
         else:
-            await interaction.response.send_message("Ratio ?")
+            await interaction.response.send_message("Pas admin")
             
     @app_commands.command(name="reload_cogs",description="Reload all cogs")
     async def reload_cogs(self, interaction):
-        if interaction.user.id == 306848454032883714:
+        if interaction.user.id == id:
             embed = discord.Embed(title="Reload cogs",description="Reload all cogs",color=0x00ff00)
             cogs : list = ["cogs.Admin.admin","cogs.Minecraft.function"]
             self.bot.logger.info(f"Reloading all cogs...")

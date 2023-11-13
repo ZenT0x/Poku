@@ -14,8 +14,7 @@ from requests import get as requests_get
 from platform import system as platform_system, python_version as platform_python_version, release as platform_release
 
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix=".",intents=intents,help_command=None)
-uptimeKumaUrl = "http://192.168.1.14:3001/api/push/k9Hj9htAyt?status=up&msg=OK&ping="   
+bot = commands.Bot(command_prefix=".",intents=intents,help_command=None)  
         
 cogs : list = ["cogs.Admin.admin","cogs.Minecraft.function"]
 
@@ -87,7 +86,6 @@ async def status_task() -> None:
     """
     Setup the game status task of the bot.
     """
-    requests_get(uptimeKumaUrl)
     statuses = config["statues"]
     if config["wake_up_time_finished"]:
         await bot.change_presence(activity=discord.Game(random_choice(statuses)))
